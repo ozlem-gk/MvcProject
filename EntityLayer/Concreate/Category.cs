@@ -18,7 +18,6 @@ namespace EntityLayer.Concreate
         [StringLength(200)]
         public string  CategoryDescription { get; set; }
 
-        [StringLength(500)]
         public bool CategoryStatus { get; set; }
 
         public ICollection<Heading> Headings { get; set; }
