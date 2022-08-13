@@ -34,7 +34,7 @@ namespace DataAccessLayer.Concreate.Repositories
 
         public List<T> List()
         {
-            throw new NotImplementedException();
+            return _object.ToList();
         }
 
         public List<T> List(Expression<Func<T, bool>> filter)
